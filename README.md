@@ -1,1 +1,1 @@
-# admin_dashboard
+In this project I will create an admin dashboard using the learned knowledge of html and css and showing the use of grid
