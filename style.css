@@ -1,7 +1,17 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     outline: 1px solid red;
+    
+}
+
+body {
+    font-family: Roboto, sans-serif;
 }
 
 .container {
@@ -16,14 +26,15 @@
 .sidebar {
     display: grid;
     grid-auto-rows: min-content;
+    gap: 48px;
     background-color: lightblue;
     grid-row: 1/5;
     grid-column: 1/2;
 }
 
-.side-content-one {
-    display: grid;
-    justify-content: center;
+.side-ul li{
+    padding: 16px;
+    font-size: 16px;
     
 }
 
@@ -72,4 +83,17 @@
     grid-row: 4/5;
     grid-column: 4/5;
     background-color: lightsalmon;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.icon {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    fill: white;
+    top: 2px;
+    margin-right: 32px;
 }
