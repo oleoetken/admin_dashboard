@@ -185,3 +185,10 @@ ul {
     justify-content:end;
     padding-right: 36px;
 }
+
+input[type="search"]{
+    background-color: lightgray;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    width: 500px;
+}
