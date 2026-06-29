@@ -55,7 +55,7 @@ body {
     padding-bottom: 50px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 50px;
-    background-color: lightyellow;
+    background-color: white;
 }
 
 .post {
@@ -87,7 +87,7 @@ body {
     grid-row: 2/3;
     grid-template-columns: 1fr 1fr 250px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-color: lightgreen;
+    background-color: rgb(230, 230, 230);
 }
 
 .main-headline {
@@ -146,7 +146,7 @@ body {
     font-size: 12px;
     gap: 16px;
     padding: 16px;
-    background-color: lightpink;
+    background-color: rgb(230, 230, 230);
 }
 
 .trends {
@@ -161,7 +161,7 @@ body {
     grid-row: 3 / 5;
     gap: 16px;
     padding: 16px;
-    background-color: lightsalmon;
+    background-color: rgb(230, 230, 230);
 }
 
 ul {
@@ -217,9 +217,9 @@ ul {
 }
 
 input[type="search"]{
-    background-color: lightgray;
+    background-color: rgb(230, 230, 230);
     border-radius: 16px;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(230, 230, 230);
     width: 500px;
     height: 30px;
 }
@@ -247,4 +247,24 @@ input[type="search"]{
 
 .trending-list li{
     padding: 8px;
+}
+
+.trending-list {
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.announcements li {
+    padding: 10px;
+}
+
+.announcements {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.text {
+    color: gray;
 }
