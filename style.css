@@ -248,6 +248,7 @@ input[type="search"]{
 
 .trending-list li{
     padding: 8px;
+    margin-left: 50px;
 }
 
 .trending-list {
@@ -268,4 +269,46 @@ input[type="search"]{
 
 .text {
     color: gray;
+}
+
+.small-picture {
+    width: 44px;
+    height: 44px;
+    border-radius: 24px;
+}
+
+.small-picture.one {
+    position: absolute;
+    left: 25px;
+    bottom: 117px;
+}
+
+.small-picture.two {
+    position: absolute;
+    left: 25px;
+    bottom: 65px;
+}
+
+.small-picture.three {
+    position: absolute;
+    left: 25px;
+    bottom: 10px;
+}
+
+.small-picture.four {
+    position: absolute;
+    left: 25px;
+    bottom: 170px;
+}
+
+.small-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.end-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    gap: 32px;
 }
